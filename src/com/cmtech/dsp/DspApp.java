@@ -39,10 +39,11 @@ public class DspApp {
 		ComplexSeq ifft = FFT.ifft(fft);
 		System.out.println(seq);
 		System.out.println(ifft);
+		
+		Double d = 1.1;
+		
 	}
 	
-	private static double[] changeSize(double[] a) {
-		return a;
-	}
+	
 
 }
